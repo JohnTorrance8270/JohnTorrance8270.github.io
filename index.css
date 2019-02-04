@@ -1,0 +1,53 @@
+#cvLayout { font-weight: bold; }
+
+html 
+{
+    background-color: #999999;
+}
+
+body 
+{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation 
+{
+    background-color: #00004d; 
+    color: #FFFFFF; 
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    display: table;
+}
+
+.navigation ol 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.navigation a:visited 
+{
+     color: #ffffff; 
+}
+
+.navigation li 
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 33.1%;
+}
+
+.navigation li:hover 
+{
+    background-color: #3333ff; 
+}
+
+.navigation a:link 
+{
+    color: #ffffff; 
+    text-decoration: none;
+}
