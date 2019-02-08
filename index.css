@@ -7,25 +7,35 @@ html
 
 body 
 {
-    background-color: #FFFFFF;
-    width: 80%;
+    color: white;
+    background-color: darkorange;
+    width: 1024px;
+    height: 768px;
     margin-left: auto;
     margin-right: auto;
+}
+
+img
+{
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
 }
 
 .navigation 
 {
     background-color: #00004d; 
     color: #FFFFFF; 
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     width: 100%;
     display: table;
 }
 
 .navigation ol 
 {
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navigation a:visited 
@@ -38,7 +48,13 @@ body
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    width: 33.1%;
+    width: 33.3%;
+    float: left;
+}
+
+.navigation li a 
+{
+    display: block;
 }
 
 .navigation li:hover 
@@ -51,3 +67,5 @@ body
     color: #ffffff; 
     text-decoration: none;
 }
+
+
