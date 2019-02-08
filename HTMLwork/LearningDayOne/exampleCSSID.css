@@ -1,0 +1,41 @@
+#home { font-weight: bold; }
+
+.navigation 
+{
+    background-color: #00004d; 
+    color: #FFFFFF; 
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    display: table;
+}
+
+.navigation ol 
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.navigation a:visited 
+{
+     color: #ffffff; 
+}
+
+.navigation li 
+{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    width: 25%;
+}
+
+.navigation li:hover 
+{
+    background-color: #3333ff; 
+}
+
+.navigation a:link 
+{
+    color: #ffffff; 
+    text-decoration: none;
+}

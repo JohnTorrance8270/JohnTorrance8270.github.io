@@ -1,0 +1,65 @@
+<html>
+<head>
+	<link rel="stylesheet" href="horizontalTable.css">
+</head>
+<style>
+	body
+	{
+		background-color: #ff00f0;
+	}
+</style>
+<body>
+<form >
+	<div>
+		<input type = "email"
+		placeholder= "email..."
+		alt="enter email"
+		required="required" required/>
+		<input type = "password"
+		placeholder= "password..."
+		alt="enter password"
+		required="required" required/>
+		<input type = "Color"
+		value="#ff0000"
+		onchange="chBackcolor()"
+		id = "favColour"
+		placeholder= "color man"
+		alt="enter color"
+		required="required" required/>
+		<button> Sign In </button>
+		<a href="clickableImage.html">
+				<img alt = "NB Gardens"
+					src = "happy.jpg"
+					width = "500px" height = "282px" />
+		</a>
+	</div>
+</form>
+
+<script type="text/javascript">
+function chBackcolor()  
+{
+	var colour = document.getElementById("favColour").value;
+	document.body.style.background = colour;
+}
+</script>
+
+<div id="menu-outer">
+	<div class="table">
+		<ul id="horizontal-list">
+			<li> 
+				<img alt = "NB Gardens"
+						src = "happy.jpg"
+						width = "500px" height = "282px" />
+			</li>
+			<li>
+				<img alt = "NB Gardens"	src = "happy.jpg" width = "500px" height = "282px" />
+			</li>
+			<li>
+				<img alt = "NB Gardens"
+						src = "happy.jpg"
+						width = "500px" height = "282px" /></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
